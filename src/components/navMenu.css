@@ -1,0 +1,11 @@
+.navbarHidenMenu {
+    display: none;
+}
+
+.sidenav-trigger {
+
+position: fixed;
+top :10px;
+left : 2px;
+
+}

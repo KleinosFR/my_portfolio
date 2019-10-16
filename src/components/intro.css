@@ -1,0 +1,9 @@
+.intro {
+    background-image: url(../assets/img/black-blue-computer-keyboard-1194713.jpg);
+    background-size: cover;        ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    color: white;
+    min-height: 400px;
+    align-self: center;
+}
