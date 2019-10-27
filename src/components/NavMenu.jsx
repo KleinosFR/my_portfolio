@@ -24,7 +24,7 @@ return (
     <li><a className="waves-effect blue-text text-lighten-2 sidenav-close" href="#contact"> <i className="material-icons blue-text text-lighten-4">mail</i>Contact me</a></li>
     
   </ul>
-  <a href="#" data-target="slide-out" className="sidenav-trigger btn background blue lighten-4 black-text"><i className="material-icons">menu</i></a>
+  <a href="#" data-target="slide-out" className="sidenav-trigger btn background blue lighten-4 black-text burgerIcon"><i className="material-icons">menu</i></a>
                     
     </header>
 
