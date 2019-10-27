@@ -10,6 +10,7 @@ import { Row } from "react-materialize"
 
 const projectsList = [
     {
+        id : 1,
         name: "Wild Portfolio",
         description: "Portfolio of the Sept. 2019 students from the Wild Code School Biarritz ",
         languages: "HTML, CSS, Vanilla JS",
@@ -17,9 +18,10 @@ const projectsList = [
         url: "https://kleinosfr.github.io/projet-portfolio/"
     },
     {
+        id : 2,
         name: "GitWild",
         description: "Visual manager for Github - under progress",
-        languages: "JS/React, Rest API, Reactstrap",
+        languages: "JS/React, Rest API, Bootstrap",
         image: imgPj2,
         url: ""
     }

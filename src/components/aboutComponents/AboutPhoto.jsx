@@ -1,20 +1,26 @@
 import React from "react";
-import {Card, Icon, MediaBox} from "react-materialize"
+import {Card, Icon, MediaBox, CardTitle, Row} from "react-materialize"
 
 import Gwoka from "../../assets/img/interestsImg/GwokaOnSunset.jpg"
+import hamburg from "../../assets/img/interestsImg/tripToHamburg.jpg"
 
 const AboutPhoto = () => {
 
     return (
 
-        <article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore nihil, iste nemo odio inventore eos dolor ullam, libero odit distinctio perferendis? Doloremque, suscipit necessitatibus asperiores error, et amet quo beatae consectetur id dolorum sapiente, inventore vel expedita architecto iure a repudiandae saepe non ex reprehenderit nulla optio numquam eaque. At!</p>
-            <Card>
-                <MediaBox>
-                <img src={Gwoka} style={{width : "50%", height : "100%"}} alt="Gwoka on sunset - copyright Stéphane LAVAUD web dev"/>
-                </MediaBox>
-            </Card>
-        </article>
+    <div>
+        <h5><Icon>photo_camera</Icon> Photography</h5>
+        <p>Photography is part of my life since more than 10 years, and I try to capture every magic moment the life is offering us.</p>
+        
+                    <Row>
+                        <MediaBox className="responsive-image col s12 l6 z-depth-3">
+                        <img className="responsive-image" src={Gwoka}  alt="Gwoka under the sunset - copyright Stéphane LAVAUD web dev"/>
+                        </MediaBox>
+                        <MediaBox className="responsive-image col s12 l6">
+                        <img className="responsive-image" src={hamburg}  alt="Trip to Hamburg - copyright Stéphane LAVAUD web dev"/>
+                        </MediaBox>
+                    </Row>
+    </div>
         
 
 

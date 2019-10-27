@@ -13,12 +13,11 @@ const AboutInterests = () =>{
 
     return (
 
-        <article className="" >
+        <article  className="" >
             <h5>My interests</h5>
-            <Carousel options={{fullWidth: true,indicators: true, duration : 200}} className="black-text center">
-                <div className="blue lighten-4" >
-                    <h5><Icon>photo_camera</Icon> Photography</h5>
-                    <p><AboutPhoto /></p>
+            <Carousel id="aboutCarousel" options={{fullWidth: true, indicators: true, duration : 200}} className="black-text center" >
+                <div  className="blue lighten-4">
+                    <AboutPhoto />
                 </div>
 
                 <div className="red lighten-4">

@@ -30,3 +30,20 @@
   padding-top : 20px;
 
 }
+
+.carousel{
+
+  min-height: 80vh !important;
+  max-height: 80vh;
+
+
+}
+
+.carousel .carousel-item {
+  height:100% !important;}
+
+  .carousel .carousel-slider{
+    height:100% !important;
+  color : black !important;
+  ;
+}
