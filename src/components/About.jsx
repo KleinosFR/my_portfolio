@@ -1,5 +1,6 @@
 import React from "react";
 import AboutIntro from "./AboutIntro";
+import AboutInterests from "./AboutInterests";
 
 
 
@@ -13,6 +14,7 @@ return(
             <p className="col s12" style ={{fontSize: '20px'}} >Looking for an internship from 15/02/2020</p>
         </header>
         <AboutIntro className="col s12" />
+        <AboutInterests />
 
 
 
