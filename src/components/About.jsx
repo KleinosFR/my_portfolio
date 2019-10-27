@@ -1,6 +1,7 @@
 import React from "react";
-import AboutIntro from "./AboutIntro";
-import AboutInterests from "./AboutInterests";
+import AboutIntro from "./aboutComponents/AboutIntro";
+import AboutInterests from "./aboutComponents/AboutInterests";
+
 
 
 
