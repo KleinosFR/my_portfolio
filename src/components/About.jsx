@@ -1,6 +1,9 @@
 import React from "react";
 import AboutIntro from "./aboutComponents/AboutIntro";
-import AboutInterests from "./aboutComponents/AboutInterests";
+import AboutInterestsV2 from "./aboutComponents/AboutInterestsV2";
+import {Row, Col } from "react-materialize";
+import AboutFooter from "./aboutComponents/AboutFooter";
+
 
 
 
@@ -14,9 +17,17 @@ return(
             <h3 className="col s12">About me</h3>
             <p className="col s12" style ={{fontSize: '20px'}} >Looking for an internship from 15/02/2020</p>
         </header>
-        <AboutIntro className="col s12" />
-        <AboutInterests />
-
+        <Row>
+            <Col s={12}>
+                <AboutIntro />
+            </Col>
+            <Col s={12}>
+                <AboutInterestsV2 />
+            </Col>
+            <Col>
+                <AboutFooter />
+            </Col>
+        </Row>
 
 
     </section>

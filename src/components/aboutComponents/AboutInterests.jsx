@@ -1,5 +1,8 @@
 import React from "react";
-import {Icon, Carousel} from "react-materialize"
+import { Card, Icon, Carousel } from "react-materialize"
+
+import Gwoka from "../../assets/img/interestsImg/GwokaOnSunset.jpg"
+import hamburg from "../../assets/img/interestsImg/tripToHamburg.jpg"
 
 
 import AboutPhoto from "./AboutPhoto"
@@ -9,14 +12,15 @@ import AboutDomotic from "./AboutDomotic"
 
 
 
-const AboutInterests = () =>{
+const AboutInterests = () => {
 
     return (
 
-        <article  className="" >
+        <article className="" >
             <h5>My interests</h5>
-            <Carousel id="aboutCarousel" options={{fullWidth: true, indicators: true, duration : 200}} className="black-text center" >
-                <div  className="blue lighten-4">
+            <Carousel id="aboutCarousel"
+            options={{ fullWidth: true, indicators: true, duration: 200 }} className="black-text center" >
+                <div className="blue lighten-4">
                     <AboutPhoto />
                 </div>
 
@@ -27,13 +31,13 @@ const AboutInterests = () =>{
 
                 <div className="purple lighten-4">
                     <h5><Icon>3d_rotation</Icon> DIY and 3D printing</h5>
-                <AboutDIY />
+                    <AboutDIY />
                 </div>
 
                 <div className="green lighten-4">
                     <h5><Icon>home_work</Icon> Home automation</h5>
-                
-                    <AboutDomotic   />
+
+                    <AboutDomotic />
                 </div>
 
 
@@ -41,7 +45,7 @@ const AboutInterests = () =>{
 
 
             </Carousel>
-            
+
 
 
         </article>
