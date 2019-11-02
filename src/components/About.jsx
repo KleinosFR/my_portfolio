@@ -24,7 +24,7 @@ return(
             <Col s={12}>
                 <AboutInterestsV2 />
             </Col>
-            <Col>
+            <Col s={12}>
                 <AboutFooter />
             </Col>
         </Row>
