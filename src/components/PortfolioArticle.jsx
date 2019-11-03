@@ -10,7 +10,7 @@ const PortfolioArticle = ({ id, name, description, languages, image, url }) => {
     return (
 
         <React.Fragment>
-            <Col l={6} xl={6}>
+            <Col l={6} xl={6} key={id}>
                 <Card horizontal className="lighten-4">
                     <h5>{name}</h5>
                     
@@ -35,11 +35,6 @@ const PortfolioArticle = ({ id, name, description, languages, image, url }) => {
 
 }
 
-export default PortfolioArticle
+export default PortfolioArticle;
 
 
-// <article className="portfolioArticle carousel-item">
-//            <a href={url} className="portfolioArticleLink carousel-item" id="portfolio">  <img src={image} alt={name}/> </a>
-//            <p>{description}</p>
-// </article>
-// <a href={url} className="portfolioArticleLink carousel-item" id="portfolio">  <img src={image} alt={name}/> </a>

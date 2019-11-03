@@ -4,7 +4,7 @@ import AboutInterestsV2 from "./aboutComponents/AboutInterestsV2";
 import {Row, Col } from "react-materialize";
 import AboutFooter from "./aboutComponents/AboutFooter";
 
-
+import "./aboutComponents/about.css"
 
 
 

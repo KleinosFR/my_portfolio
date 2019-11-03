@@ -17,16 +17,16 @@ const AboutInterestsV2 = () => {
             <h4 className="left-align">{<Icon> build </Icon>} My interests</h4>
 
             <Collapsible className="" >
-                <CollapsibleItem className ="center-align" header="Photography" icon={<Icon> photo_camera </Icon>}>
+                <CollapsibleItem className ="center-align grey darken-4" header="Photography" icon={<Icon> photo_camera </Icon>}>
                     <AboutPhoto className="" />
                 </CollapsibleItem >
-                <CollapsibleItem className ="center-align" header="DIY and 3D printing" icon={<Icon> 3d_rotation </Icon>} >
+                <CollapsibleItem className ="center-align blue lighten-4" header="DIY and 3D printing" icon={<Icon> 3d_rotation </Icon>} >
                     <AboutDIY />
                 </CollapsibleItem >
-                <CollapsibleItem className ="center-align" header="Video Games" icon={<Icon> videogame_asset </Icon>}>
+                <CollapsibleItem className ="center-align yellow lighten-4" header="Video Games" icon={<Icon> videogame_asset </Icon>}>
                     <AboutVideoGames />
                 </CollapsibleItem >
-                <CollapsibleItem className ="center-align" header="Home automation" icon={<Icon> home_work </Icon>}>
+                <CollapsibleItem className ="center-align green lighten-4" header="Home automation" icon={<Icon> home_work </Icon>}>
                     <AboutDomotic />
                 </CollapsibleItem>
             </Collapsible>

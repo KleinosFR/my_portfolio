@@ -1,15 +1,12 @@
 import React from "react";
-import {Collapsible, CollapsibleItem, Icon, Col} from "react-materialize"
-import Row from "react-materialize/lib/Row";
-
-
+import {Icon, Col} from "react-materialize";
 
 
 const AboutIntro = () =>{
 
-    const wcsStyle = {
-        color : "orange"
-}
+const wcsStyle = {
+    color : "orange"
+};
 
     return(
 

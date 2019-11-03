@@ -1,10 +1,10 @@
-import React from "react"
-import {Icon, Row, Col} from "react-materialize"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faLinkedin, faGithub, faTwitter} from "@fortawesome/free-brands-svg-icons"
-import {faFilePdf} from "@fortawesome/free-solid-svg-icons"
+import React from "react";
+import {Icon, Row, Col} from "react-materialize";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin, faGithub, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faFilePdf} from "@fortawesome/free-solid-svg-icons";
 
-import agent_file from "../../assets/documents/SLAVAUD_Resume.pdf"
+import cv from "../../assets/documents/SLAVAUD_Resume.pdf"
 
 const AboutFooter = () =>
 {
@@ -35,7 +35,7 @@ const AboutFooter = () =>
             <Col l={6} s={12} className="aboutIcons z-depth-1">
             <h5 className="center-align"> Get my resume</h5>
             <Row>
-            <a className={agent_file} href="src/assets/documents/SLAVAUD_Resume.pdf" download="SLAVAUD_Resume.pdf">
+            <a href={cv} download="SLAVAUD_Resume.pdf">
                 <FontAwesomeIcon icon={faFilePdf} />
             </a>
             </Row>
