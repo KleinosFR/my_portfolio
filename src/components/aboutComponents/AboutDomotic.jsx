@@ -32,18 +32,18 @@ const AboutDomotics = () => {
                             <p className="left-align">Current system I deployed :</p>
                             <ul style={{fontStyle:"italic"}}>
                                 <li key="domSystem1">Jeedom system running on a Debian virtual machine hosted by a Fujitsu Primergy server</li>
-                                <li key="domSystem2">>Z-Wave sensors : Door / Window sensors, Switch controllers</li>
-                                <li key="domSystem3">>433Mhz devices : Oregon temperature sensors, Smoke and CO detectors, OWL power usage monitoring system, non critical plugs</li>
-                                <li key="domSystem4">>ESPeasy modules : all DIY modules (powered by NodeMCU), including temperature / humidity sensors, and watering valve control  </li>
-                                <li key="domSystem5">>Xiaomi : Door / Window sensors, temperature / humidity sensors, flooding detector, lighting, scale</li>
-                                <li key="domSystem6">>Ikea Home Smart : lighting, and plugs </li>
-                                <li key="domSystem7">>Broadlink Mini, Telegram bot</li>
+                                <li key="domSystem2">Z-Wave sensors : Door / Window sensors, Switch controllers</li>
+                                <li key="domSystem3">433Mhz devices : Oregon temperature sensors, Smoke and CO detectors, OWL power usage monitoring system, non critical plugs</li>
+                                <li key="domSystem4">ESPeasy modules : all DIY modules (powered by NodeMCU), including temperature / humidity sensors, and watering valve control  </li>
+                                <li key="domSystem5">Xiaomi : Door / Window sensors, temperature / humidity sensors, flooding detector, lighting, scale</li>
+                                <li key="domSystem6">Ikea Home Smart : lighting, and plugs </li>
+                                <li key="domSystem7">Broadlink Mini, Telegram bot</li>
                             </ul>
                         </Col>
                         <Col l={6} className="left-align aboutItems">
                             <p className="left-align">Main Features :</p>
                             <ul style={{fontStyle:"italic"}} >
-                                <li key="domFeat1">>Management of the presence in the house using wifi ping, bluethooth and geofencing</li>
+                                <li key="domFeat1">Management of the presence in the house using wifi ping, bluethooth and geofencing</li>
                                 <li key="domFeat2">PID heating control, linked to the house presence (decrease energy comsumption by 60%)</li>
                                 <li key="domFeat3">Watering of the garden depending on the forecast via Meteo France API</li>
                                 <li key="domFeat4">Total control of the house via Google assitant and telegram bot</li>
