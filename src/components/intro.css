@@ -1,8 +1,9 @@
 .intro {
-    background-image: url(../assets/img/background4.jpg);
+    background-image: url(../assets/img/sinago.JPG);
     background-size: cover;        ;
     background-repeat: no-repeat;
-    background-position-y: center;
+    background-position-y: 62%;
+    background-position-x: center;
     color: white;
     min-height: 400px;
     align-self: center;
