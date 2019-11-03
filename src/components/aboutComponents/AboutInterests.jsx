@@ -1,8 +1,6 @@
 import React from "react";
-import { Card, Icon, Carousel } from "react-materialize"
+import { Icon, Carousel } from "react-materialize"
 
-import Gwoka from "../../assets/img/interestsImg/GwokaOnSunset.jpg"
-import hamburg from "../../assets/img/interestsImg/tripToHamburg.jpg"
 
 
 import AboutPhoto from "./AboutPhoto"

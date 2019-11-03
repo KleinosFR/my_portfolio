@@ -21,9 +21,17 @@ const projectsList = [
         id : 2,
         name: "GitWild",
         description: "Visual manager for Github - under progress",
-        languages: "JS/React, Rest API, Bootstrap",
+        languages: "JS/React, Rest API, Reactstrap",
         image: imgPj2,
         url: ""
+    },
+    {
+        id : 3,
+        name: "Hackloween Monsters Battle",
+        description: "Project developped during a 24hrs hackathon.",
+        languages: "JS/React, Rest API, PHP, Reactstrap",
+        image: "",
+        url: "https://wildmonstersbattle.herokuapp.com/"
     }
 
 ]
