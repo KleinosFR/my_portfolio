@@ -3,6 +3,7 @@ import { Icon, MediaBox, Row, Col } from "react-materialize"
 
 import Gwoka from "../../assets/img/interestsImg/GwokaOnSunset.jpg"
 import hamburg from "../../assets/img/interestsImg/tripToHamburg.jpg"
+import bird from "../../assets/img/interestsImg/coloredBird.jpg"
 
 const AboutPhoto = () => {
 
@@ -12,7 +13,7 @@ const AboutPhoto = () => {
             <Row >
                 <Col s={12} l={6}>
                 <MediaBox>
-                    <img className ="responsive-image" style={{maxWidth:"100%"}} src={Gwoka} alt="Gwoka under the sunset - copyright Stéphane LAVAUD web dev" />
+                    <img className ="responsive-image" style={{maxWidth:"100%"}} src={bird} alt="Colored bird in West Indies - copyright Stéphane LAVAUD web dev" />
                 </MediaBox>
                 </Col>
                 <Col s={12} l={6}>

@@ -18,7 +18,7 @@ const AboutInterestsV2 = () => {
 
             <Collapsible className="" >
                 <CollapsibleItem className ="center-align" header="Photography" icon={<Icon> photo_camera </Icon>}>
-                    <AboutPhoto />
+                    <AboutPhoto className="" />
                 </CollapsibleItem >
                 <CollapsibleItem className ="center-align" header="DIY and 3D printing" icon={<Icon> 3d_rotation </Icon>} >
                     <AboutDIY />

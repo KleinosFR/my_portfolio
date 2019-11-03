@@ -1,10 +1,10 @@
 import React from "react"
-
+import { Row } from "react-materialize"
 
 import PortfolioArticle from "./PortfolioArticle"
 import imgPj1 from "../assets/img/projectsImg/portfolioWCS.png"
 import imgPj2 from "../assets/img/projectsImg/gitWild.png"
-import { Row } from "react-materialize"
+import imgPj3 from "../assets/img/coming-soon.jpg"
 
 
 
@@ -30,7 +30,7 @@ const projectsList = [
         name: "Hackloween Monsters Battle",
         description: "Project developped during a 24hrs hackathon.",
         languages: "JS/React, Rest API, PHP, Reactstrap",
-        image: "",
+        image: imgPj3,
         url: "https://wildmonstersbattle.herokuapp.com/"
     }
 
