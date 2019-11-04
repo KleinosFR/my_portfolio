@@ -1,8 +1,8 @@
 import React from "react";
 import {MediaBox, Row, Col } from "react-materialize";
 
-import hamburg from "../../assets/img/interestsImg/tripToHamburg.jpg";
-import bird from "../../assets/img/interestsImg/coloredBird.jpg";
+import hamburg from "../../assets/img/interestsImg/tripToHamburg2.jpg";
+import bird from "../../assets/img/interestsImg/coloredBird2.jpg";
 
 const AboutPhoto = () => {
 
