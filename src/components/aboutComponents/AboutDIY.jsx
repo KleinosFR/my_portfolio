@@ -11,7 +11,7 @@ const AboutDIY = () => {
         
             <Row className="left-align" >
                 <Col l={2}>
-                    <img src={smars} alt="" style={{width:"100%"}}/>
+                    <img src={smars} alt="SMARS DIY robot" style={{width:"100%"}}/>
                 </Col>
                 <Col l={10} s={12}>
                     <p>Since I was a teenager, I've always love to built things, and above all understand how they are working. I was buying every week some magazines about electronics, and performing the tutorials I was encountering.
