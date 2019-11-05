@@ -11,3 +11,20 @@ h5{
 
     margin: 20px;
 }
+
+
+@media (max-width : 1310px){
+
+.projectCard{
+
+min-height : 565px;
+}
+}
+
+@media (max-width : 990px){
+
+    .projectCard{
+    
+    min-height : 200px;
+    }
+    }
