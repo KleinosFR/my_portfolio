@@ -11,7 +11,7 @@ const PortfolioArticle = ({ id, name, description, languages, image, url }) => {
 
         <React.Fragment>
             <Col l={6} xl={6} key={id}>
-                <Card horizontal className="lighten-4">
+                <Card horizontal className="lighten-4 projectCard">
                     <h5>{name}</h5>
                     
                         <MediaBox className="responsive-img z-depth-3 col s12 xl8" >
