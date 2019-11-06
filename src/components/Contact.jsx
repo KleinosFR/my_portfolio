@@ -34,7 +34,7 @@ const encode = (data) => {
     render() {
         const { name, email, message } = this.state;
         return (
-            <form onSubmit={this.handleSubmit} className="white">
+            <form id="contact" onSubmit={this.handleSubmit} className="white">
             <Row>
                 <Col s={12} l={3} className="offset-l2">
                     <TextInput s={12} label ="Your Name" type="text" name="name" value={name} onChange={this.handleChange} />
