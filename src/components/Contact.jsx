@@ -32,13 +32,9 @@ const encode = (data) => {
         })
         .then((res) => {
             const status = res.status;
-            if (status !== 404) {
-            this.setState({isSubmited : true})}
-            else {
-            this.setState({isSubmited : true, isError : true})
-            }
+            console.log(status)
         })
-        .catch(error => this.setState({isError : true}));
+        .catch(error => console.log(error));
 
     
     };
