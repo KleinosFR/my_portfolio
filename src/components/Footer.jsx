@@ -12,7 +12,7 @@ function Footer() {
     return(
     <footer className="blue lighten-4 valign-wrapper center-align">
         <Row className="footerText">
-        Copyrigth Stéphane LAVAUD 2019 - React <FontAwesomeIcon color={"blue"} icon={faReact} size={"lg"} /> - Materialize CSS 
+        Copyrigth Stéphane LAVAUD 2019 - React <FontAwesomeIcon color={"rgb(50,150,255)"} icon={faReact} size={"lg"} /> - Materialize CSS 
         </Row>
     </footer>
     )
