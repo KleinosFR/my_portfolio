@@ -1,5 +1,5 @@
 import React from "react";
-import {TextInput, Row, Col, Textarea, Icon, Toast, Button } from 'react-materialize'
+import {TextInput, Row, Col, Textarea, Icon, Button } from 'react-materialize'
 
 
 
@@ -45,7 +45,7 @@ const encode = (data) => {
         const { name, email, message, isSubmited, isError } = this.state;
         return (
         <>
-            <form id="contact" onSubmit={this.handleSubmit} className="white">
+            <form id="contact" onSubmit={this.handleSubmit} className="white" style={{paddingBottom : "20px", marginBottom : "20px"}}>
                 <Row>
                     <h3  className="col s12" >Contact Me</h3>
                 </Row>
