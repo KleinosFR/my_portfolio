@@ -4,7 +4,7 @@ import { Row } from "react-materialize"
 import PortfolioArticle from "./PortfolioArticle"
 import imgPj1 from "../assets/img/projectsImg/portfolioWCS.png"
 import imgPj2 from "../assets/img/projectsImg/gitWild.png"
-import imgPj3 from "../assets/img/projectsImg/wildMonsters.png"
+import imgPj3 from "../assets/img/projectsImg/wildMonsters.jpg"
 
 
 
