@@ -4,7 +4,7 @@ import { Row } from "react-materialize"
 import PortfolioArticle from "./PortfolioArticle"
 import imgPj1 from "../assets/img/projectsImg/portfolioWCS.png"
 import imgPj2 from "../assets/img/projectsImg/gitWild.png"
-import imgPj3 from "../assets/img/coming-soon.jpg"
+import imgPj3 from "../assets/img/projectsImg/wildMonsters.png"
 
 
 
@@ -20,15 +20,15 @@ const projectsList = [
     {
         id : 2,
         name: "GitWild",
-        description: "Visual manager for Github - under progress",
+        description: "Visual manager for Github",
         languages: "JS/React, Rest API, Reactstrap",
         image: imgPj2,
-        url: ""
+        url: "https://gitwild.netlify.com/"
     },
     {
         id : 3,
         name: "Hackloween Monsters Battle",
-        description: "Project developped during a 24hrs hackathon.",
+        description: "Project developped during a 24hrs hackathon. Winner of the hackathon",
         languages: "JS/React, Rest API, PHP, Reactstrap",
         image: imgPj3,
         url: "https://wildmonstersbattle.herokuapp.com/"
