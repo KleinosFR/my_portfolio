@@ -42,6 +42,14 @@ const projectsList = [
         languages: "JS/React, Google Maps API, Reactstrap",
         image: soon,
         url: "https://stephane-lavaud.dev"
+    },
+    {
+        id : 5,
+        name: "Resolab",
+        description: "Creation of a social network designed for children. Project for the account of Antic Pays-Basque, AdoEnia, Centre Hospitalier de la Côte Basque and DDEC64",
+        languages: "JS/React, Redux, PHP, NodeJs / Express, Material-UI, GraphQL API",
+        image: soon,
+        url: "https://stephane-lavaud.dev"
     }
 
 ]
